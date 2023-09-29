@@ -27,7 +27,7 @@
     <ClCompile Include="Property.cpp">
       <Filter>Source Files\Materials</Filter>
     </ClCompile>
-    <ClCompile Include="Material.cpp">
+    <ClCompile Include="Steel.cpp">
       <Filter>Source Files\Materials</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="Property.h">
       <Filter>Header Files\Materials</Filter>
     </ClInclude>
-    <ClInclude Include="Material.h">
+    <ClInclude Include="Steel.h">
       <Filter>Header Files\Materials</Filter>
     </ClInclude>
   </ItemGroup>
