@@ -11,15 +11,18 @@ class LowSteel final:
 private:
     char* _treatment;
 
+protected:
+    void setHardness(char* treatment, short quality = LOW);
+    void setResielence(char* treatment, short quality = LOW);
+
 public:
     LowSteel() : Material(arrMaterial[STEEL], arrQuality[LOW], arrHardSteel[LOW], arrResielenceSteel[LOW]), _treatment(arrTreatment[NO_TREAT]) {}
     ~LowSteel() {
         _treatment = nullptr;
     }
 
-public:
     char* getTreatment() const;
-    inline void setTreatment(char* treatment);
+    void setTreatment();
 }
 ;
 #endif

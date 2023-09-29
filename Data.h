@@ -25,6 +25,7 @@ enum arrTreatment {
 char* arrMaterial[];
 char* arrQuality[];
 char* arrTreatment[];
+extern const short sizeTreat;
 
 short arrHardWood[];
 short arrHardBone[];

@@ -11,3 +11,5 @@ short arrHardSteel[] = { 40, 50, 60};
 short arrResielenceWood[] = { 10, 20, 30 };
 short arrResielenceBone[] = { 20, 30, 40 };
 short arrResielenceSteel[] = { 30, 40, 50 };
+
+extern const short sizeTreat = sizeof(arrTreatment) / sizeof(arrTreatment[0]);

@@ -6,10 +6,22 @@ int main()
 {
     LowSteel lowSteel;
     showData(lowSteel);
+    cout << "\n";
 
-    MiddleSteel midSteel;
-    /*cout << midSteel.getMaterialName() << "\n";
-    cout << midSteel.getTreatment() << "\n";*/
+    lowSteel.setTreatment();
+    showData(lowSteel);
+    cout << "\n";
+
+    lowSteel.setTreatment();
+    showData(lowSteel);
+    cout << "\n";
+
+    lowSteel.setTreatment();
+    showData(lowSteel);
+    cout << "\n";
+
+    /*MiddleSteel midSteel;
+    showData(midSteel);*/
 
     return 0;
 }

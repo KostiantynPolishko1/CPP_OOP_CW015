@@ -42,8 +42,8 @@
     <ClCompile Include="MiddleSteel.cpp">
       <Filter>Source Files\Materials</Filter>
     </ClCompile>
-    <ClCompile Include="Steel.cpp">
-      <Filter>Source Files\Materials</Filter>
+    <ClCompile Include="inPut.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="MiddleSteel.h">
       <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="inPut.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,7 +7,7 @@
 class Quality :
     public Property
 {
-private:
+protected:
     char* _quality;
 
 protected:

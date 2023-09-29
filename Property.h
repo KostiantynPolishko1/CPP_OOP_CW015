@@ -4,7 +4,7 @@
 
 class Property
 {
-private:
+protected:
 	short _hardness;
 	short _resielence;
 

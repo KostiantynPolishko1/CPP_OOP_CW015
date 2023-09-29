@@ -7,7 +7,7 @@
 class Material :
     public Quality
 {
-private:
+protected:
     char* _materialName;
 
 protected:
