@@ -13,6 +13,7 @@ int main(void)
     cout << lowsteel.getQualityMaterial() << "\n";
     cout << lowsteel.getHardness() << "\n";
     cout << lowsteel.getResielence() << "\n";
-    
+
+
     return 0;
 }

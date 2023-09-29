@@ -1,4 +1,5 @@
 #pragma once
+#include "Data.h"
 #include "Material.h"
 
 #ifndef LOWSTEEL_H
@@ -11,7 +12,7 @@ private:
     char* _treatment;
 
 public:
-    LowSteel() : Material((char*)"STEEL", (char*)"LOW ALLOYED", 40, 50), _treatment((char*)"NO DATA") {}
+    LowSteel() : Material(arrMaterial[STEEL], arrQuality[LOW], arrHardSteel[LOW], arrResielenceSteel[LOW]), _treatment(arrTreatment[NO_TREAT]) {}
     ~LowSteel() {
         _treatment = nullptr;
     }
