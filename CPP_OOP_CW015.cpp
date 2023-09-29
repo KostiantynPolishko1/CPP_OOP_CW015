@@ -1,19 +1,10 @@
-#include <iostream>
 #include "LowSteel.h"
+#include "Output.h"
 
-using std::cout;
-
-int main(void)
+int main()
 {
-    std::cout << "Start!\n";
     LowSteel lowsteel;
-    
-    cout << lowsteel.getMaterialName() << "\n";
-    cout << lowsteel.getTreatment() << "\n";
-    cout << lowsteel.getQualityMaterial() << "\n";
-    cout << lowsteel.getHardness() << "\n";
-    cout << lowsteel.getResielence() << "\n";
-
+    showData(lowsteel);
 
     return 0;
 }

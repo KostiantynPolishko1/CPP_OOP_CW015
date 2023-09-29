@@ -138,6 +138,7 @@
     <ClInclude Include="Data.h" />
     <ClInclude Include="LowSteel.h" />
     <ClInclude Include="Material.h" />
+    <ClInclude Include="Output.h" />
     <ClInclude Include="Property.h" />
     <ClInclude Include="Quality.h" />
   </ItemGroup>
