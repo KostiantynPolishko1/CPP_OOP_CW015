@@ -131,13 +131,16 @@
     <ClCompile Include="Data.cpp" />
     <ClCompile Include="LowSteel.cpp" />
     <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MiddleSteel.cpp" />
     <ClCompile Include="Property.cpp" />
     <ClCompile Include="Quality.cpp" />
+    <ClCompile Include="Steel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h" />
     <ClInclude Include="LowSteel.h" />
     <ClInclude Include="Material.h" />
+    <ClInclude Include="MiddleSteel.h" />
     <ClInclude Include="Output.h" />
     <ClInclude Include="Property.h" />
     <ClInclude Include="Quality.h" />
