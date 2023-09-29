@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CPP_OOP_CW015.cpp" />
+    <ClCompile Include="LowSteel.cpp" />
     <ClCompile Include="Property.cpp" />
-    <ClCompile Include="Steel.cpp" />
+    <ClCompile Include="Quality.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LowSteel.h" />
     <ClInclude Include="Property.h" />
-    <ClInclude Include="Steel.h" />
+    <ClInclude Include="Quality.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

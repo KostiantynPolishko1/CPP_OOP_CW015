@@ -9,8 +9,9 @@ private:
 	short _resielence;
 
 protected:
-	Property() : _hardness(0), _resielence(0) {}
-	Property(short hardness, short resielence) : _hardness(hardness), _resielence(resielence) {}
+	Property() : _hardness{}, _resielence{} {}
+	Property(short hardness, short resielence) : 
+		_hardness(hardness), _resielence(resielence) {}
 
 public:
 	short getHardness() const;

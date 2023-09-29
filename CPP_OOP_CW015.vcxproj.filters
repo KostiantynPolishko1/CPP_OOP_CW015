@@ -27,7 +27,10 @@
     <ClCompile Include="Property.cpp">
       <Filter>Source Files\Materials</Filter>
     </ClCompile>
-    <ClCompile Include="Steel.cpp">
+    <ClCompile Include="LowSteel.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Quality.cpp">
       <Filter>Source Files\Materials</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +38,10 @@
     <ClInclude Include="Property.h">
       <Filter>Header Files\Materials</Filter>
     </ClInclude>
-    <ClInclude Include="Steel.h">
+    <ClInclude Include="LowSteel.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Quality.h">
       <Filter>Header Files\Materials</Filter>
     </ClInclude>
   </ItemGroup>
