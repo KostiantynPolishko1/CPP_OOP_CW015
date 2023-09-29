@@ -20,8 +20,9 @@ int main()
     showData(lowSteel);
     cout << "\n";
 
-    /*MiddleSteel midSteel;
-    showData(midSteel);*/
+    MiddleSteel midSteel;
+    showData(midSteel);
+    cout << "\n";
 
     return 0;
 }

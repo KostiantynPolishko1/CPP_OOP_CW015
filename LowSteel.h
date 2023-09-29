@@ -12,8 +12,8 @@ private:
     char* _treatment;
 
 protected:
-    void setHardness(char* treatment, short quality = LOW);
-    void setResielence(char* treatment, short quality = LOW);
+    void setHardness(char* treatment, short hardness);
+    void setResielence(char* treatment, short resielence);
 
 public:
     LowSteel() : Material(arrMaterial[STEEL], arrQuality[LOW], arrHardSteel[LOW], arrResielenceSteel[LOW]), _treatment(arrTreatment[NO_TREAT]) {}

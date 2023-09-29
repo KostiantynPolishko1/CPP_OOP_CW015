@@ -1,36 +1,36 @@
 #include "LowSteel.h"
 
-void LowSteel::setHardness(char* treatment, short quality) 
+void LowSteel::setHardness(char* treatment, short hardness)
 {
 	if (treatment == arrTreatment[FORGED])
-		_hardness = static_cast<int>(arrHardSteel[quality] * 1.2);
+		_hardness = static_cast<int>(hardness * 1.2);
 	else if (treatment == arrTreatment[HARDED])
-		_hardness = static_cast<int>(arrHardSteel[quality] * 1.5);
+		_hardness = static_cast<int>(hardness * 1.5);
 	else
-		_hardness = arrHardSteel[quality];
+		_hardness = _hardness;
 }
 ;
-void LowSteel::setResielence(char* treatment, short quality) {
+void LowSteel::setResielence(char* treatment, short resielence) {
 	if (treatment == arrTreatment[FORGED])
-		_resielence = static_cast<int>(arrResielenceSteel[quality] * 1.2);
+		_resielence = static_cast<int>(resielence * 1.2);
 	else if (treatment == arrTreatment[HARDED])
-		_resielence = static_cast<int>(arrResielenceSteel[quality] * 1.5);
+		_resielence = static_cast<int>(resielence * 1.5);
 	else
-		_resielence = arrResielenceSteel[quality];
+		_resielence = _resielence;
 }
 ;
 char* LowSteel::getTreatment() const {
 	return _treatment;
 }
 ;
-void LowSteel::setTreatment() {
-
+void LowSteel::setTreatment()
+{
 	static short increment = 0;
 	increment += 1;
 	increment = (increment == sizeTreat ? increment = 0 : increment);
 	_treatment = arrTreatment[increment];
 
-	setHardness(arrTreatment[increment]);
-	setResielence(arrTreatment[increment]);
+	setHardness(arrTreatment[increment], _hardness);
+	setResielence(arrTreatment[increment], _resielence);
 }
 ;
