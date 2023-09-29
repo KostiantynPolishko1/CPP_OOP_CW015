@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="CPP_OOP_CW015.cpp" />
     <ClCompile Include="LowSteel.cpp" />
+    <ClCompile Include="Material.cpp" />
     <ClCompile Include="Property.cpp" />
     <ClCompile Include="Quality.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LowSteel.h" />
+    <ClInclude Include="Material.h" />
     <ClInclude Include="Property.h" />
     <ClInclude Include="Quality.h" />
   </ItemGroup>
