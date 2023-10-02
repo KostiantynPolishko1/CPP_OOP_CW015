@@ -1,12 +1,9 @@
 #pragma once
 #include "Data.h"
 #include "Material.h"
-#include "LowSteel.h"
 
 #ifndef MIDDLESTEEL_H
 #define MIDDLESTEEL_H
-
-class LowSteel;
 
 class MiddleSteel final:
     public Material
@@ -14,6 +11,9 @@ class MiddleSteel final:
 private:
     char* _treatment;
 
+protected:
+    void setHardness(char* treatment, short hardness);
+    void setResielence(char* treatment, short resielence);
 
 public:
     MiddleSteel() : Material(arrMaterial[STEEL], arrQuality[MIDDLE], arrHardSteel[MIDDLE], arrResielenceSteel[MIDDLE]), _treatment(arrTreatment[NO_TREAT]) {}
@@ -23,7 +23,7 @@ public:
 
 public:
     char* getTreatment() const;
-    friend void LowSteel::setTreatment();
+    void setTreatment();
 }
 ;
 #endif

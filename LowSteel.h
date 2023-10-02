@@ -22,7 +22,8 @@ public:
     }
 
     char* getTreatment() const;
-    void setTreatment();
+	void setTreatment();
+
 }
 ;
 #endif

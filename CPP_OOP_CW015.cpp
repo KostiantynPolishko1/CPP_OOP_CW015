@@ -21,6 +21,7 @@ int main()
     cout << "\n";
 
     MiddleSteel midSteel;
+    midSteel.setTreatment();
     showData(midSteel);
     cout << "\n";
 
